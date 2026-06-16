@@ -5,9 +5,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-TOKEN = os.getenv("DISCORD_TOKEN")
-GUILD_ID = os.getenv("GUILD_ID")          # opzionale: ID del server, per sincronizzare i comandi più velocemente
-LOG_CHANNEL_ID = os.getenv("LOG_CHANNEL_ID")  # opzionale: ID del canale dove inviare il log delle lezioni
+DISCORD_TOKEN=MTUxNjQ3MzMyMTQ1MjIxMjI5Ng.GWYJ4A.if_Qb6zNZJmcGMbpGlARfkIIWa1ogE-ASXOJ4k
+GUILD_ID=1516220949287145603
+LOG_CHANNEL_ID=
 
 # Intents necessari: dobbiamo poter leggere i membri e i loro ruoli
 intents = discord.Intents.default()
